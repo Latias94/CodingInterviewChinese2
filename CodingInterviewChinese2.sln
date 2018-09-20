@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_07_ConstructBinaryTree", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_08_NextNodeInBinaryTrees", "_08_NextNodeInBinaryTrees\_08_NextNodeInBinaryTrees.csproj", "{43923272-5AB7-4D02-B0BC-AA1249F1CFC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_09_QueueWithTwoStacks", "_09_QueueWithTwoStacks\_09_QueueWithTwoStacks.csproj", "{9BECF112-A2B0-4C0B-8636-941BF0297218}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{43923272-5AB7-4D02-B0BC-AA1249F1CFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43923272-5AB7-4D02-B0BC-AA1249F1CFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43923272-5AB7-4D02-B0BC-AA1249F1CFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BECF112-A2B0-4C0B-8636-941BF0297218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BECF112-A2B0-4C0B-8636-941BF0297218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BECF112-A2B0-4C0B-8636-941BF0297218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BECF112-A2B0-4C0B-8636-941BF0297218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
