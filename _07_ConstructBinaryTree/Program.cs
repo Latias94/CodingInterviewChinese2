@@ -28,7 +28,6 @@ namespace _07_ConstructBinaryTree
             TreeNode result = ReConstructBinaryTree(pre, tin);
             Console.WriteLine(result.left.left.right.val); // 7
             Console.WriteLine(result.right.right.left.val); // 8
-            
         }
 
 
@@ -37,8 +36,10 @@ namespace _07_ConstructBinaryTree
             if (pre.Length == 0 || tin.Length == 0) return null;
             TreeNode root = new TreeNode(pre[0]);
             int length = Array.IndexOf(tin, pre[0]);
-            root.left = ReConstructBinaryTree(Slice(pre, 1, length + 1), Slice(tin, 0, length));
-            root.right = ReConstructBinaryTree(Slice(pre, length + 1, pre.Length), Slice(tin, length + 1, tin.Length));
+            root.left = ReConstructBinaryTree(Slice(pre, 1, length + 1),
+                Slice(tin, 0, length));
+            root.right = ReConstructBinaryTree(Slice(pre, length + 1, pre.Length),
+                Slice(tin, length + 1, tin.Length));
             return root;
         }
 
