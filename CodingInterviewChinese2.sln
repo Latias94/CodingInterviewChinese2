@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_12_StringPathInMatrix", "_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_13_RobotMove", "_13_RobotMove\_13_RobotMove.csproj", "{AA5D5496-B9BA-4140-B48C-09CB381AC60E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_14_CuttingRope", "_14_CuttingRope\_14_CuttingRope.csproj", "{1FC5DFD0-CE46-48A4-B79F-D5982E7AD12F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{AA5D5496-B9BA-4140-B48C-09CB381AC60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5D5496-B9BA-4140-B48C-09CB381AC60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5D5496-B9BA-4140-B48C-09CB381AC60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC5DFD0-CE46-48A4-B79F-D5982E7AD12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC5DFD0-CE46-48A4-B79F-D5982E7AD12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC5DFD0-CE46-48A4-B79F-D5982E7AD12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC5DFD0-CE46-48A4-B79F-D5982E7AD12F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
