@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_14_CuttingRope", "_14_Cutt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_15_NumberOf1InBinary", "_15_NumberOf1InBinary\_15_NumberOf1InBinary.csproj", "{165318D0-A76F-42AB-A8C0-5AEB62E8624A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_16_Power", "_16_Power\_16_Power.csproj", "{4D8D22C3-D801-4FBA-B6EE-1074D3378148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{165318D0-A76F-42AB-A8C0-5AEB62E8624A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{165318D0-A76F-42AB-A8C0-5AEB62E8624A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{165318D0-A76F-42AB-A8C0-5AEB62E8624A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8D22C3-D801-4FBA-B6EE-1074D3378148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8D22C3-D801-4FBA-B6EE-1074D3378148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8D22C3-D801-4FBA-B6EE-1074D3378148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8D22C3-D801-4FBA-B6EE-1074D3378148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
