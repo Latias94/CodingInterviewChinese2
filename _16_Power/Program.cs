@@ -10,12 +10,12 @@ namespace _16_Power
         static void Main(string[] args)
         {
             Console.WriteLine(Power1(2, 3));
-//            Console.WriteLine(3 >> 1);
         }
 
         private static double Power1(double thebase, int exponent)
         {
             if (thebase == 0) return 0;
+            if (thebase == 1) return 1;
             double result;
             if (exponent < 0)
             {
@@ -29,6 +29,7 @@ namespace _16_Power
             return result;
         }
 
+        // 迭代
         private static double PowerWithoutCheckError1(double thebase, int exponent)
         {
             double result = 1.0;
@@ -40,6 +41,10 @@ namespace _16_Power
             return result;
         }
 
+        // 累乘法
+        // n 为偶数时， a^n = a^(n/2) * a^(n/2)
+        // n 为奇数时， a^n = a^(n-1/2) * a^(n-1/2) * a
+        // 递归要注意，小心栈溢出
         private static double PowerWithoutCheckError2(double thebase, int exponent)
         {
             if (exponent == 0) return 1;
